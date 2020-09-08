@@ -1,0 +1,79 @@
+@import url('https://fonts.googleapis.com/css2?family=Anton&family=Kalam:wght@400;700&family=Pacifico&family=Shadows+Into+Light&family=Sriracha&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    list-style: none;
+    box-sizing: border-box;
+    
+}
+/* 
+body {
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+} */
+
+.container {
+    position: relative;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+}
+.top {
+    height: 35%;
+    width: auto;
+    background-color: transparent;
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    justify-content: flex-end;
+    font-family: 'Shadows Into Light', cursive;
+    z-index: 3;
+}
+h1 {
+    font-size: 4.5rem;
+}
+.bottom {
+    height: 65%;
+    width: auto;
+    background-color: #00251a;
+    opacity: 65%;
+    letter-spacing: 3px;
+    z-index: 2;
+}
+
+.list {
+    width: auto;
+    margin-top: 30px;
+    font-family: 'Source Sans Pro', sans-serif;
+
+}
+
+li {
+    padding-top : 15px;
+    font-size : 1.5rem;
+}
+
+
+a {
+    text-decoration: none;
+    color: white;
+}
+a:hover {
+    color: #805acb;
+}
+.triangle {
+    z-index: 1;
+    position: absolute;
+    top: 0;
+    right: 0;
+	width: 100%;
+	height: 35%;
+	border-top: 0px solid transparent;
+	border-right: 800px solid #805acb;
+    border-bottom: 500px solid transparent;
+    opacity: 49%;
+}
