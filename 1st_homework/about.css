@@ -612,12 +612,13 @@ li {
 
 }
 
-.modal-close {
+.modal-close .fa-times {
     position: absolute;
     top: 15px;
     right: 15px;
     cursor: pointer;
     font-weight: bold;
+    
 }
 
 input,
@@ -661,6 +662,15 @@ select {
     border-radius: 10px;
     position: relative;
 }
+
+.modal-best-content .modal-close {
+    position: absolute;
+    top: 15px;
+    right: 15px;
+    cursor: pointer;
+    font-weight: bold;
+} 
+
 
 .best-active {
     visibility: visible;
