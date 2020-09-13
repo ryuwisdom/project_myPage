@@ -159,3 +159,4 @@ normalResultModalCloseButton.addEventListener('click', function () {
 
 })
 
+
