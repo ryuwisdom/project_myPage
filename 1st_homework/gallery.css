@@ -1,0 +1,92 @@
+@import url('https://fonts.googleapis.com/css2?family=Anton&family=Kalam:wght@400;700&family=Pacifico&family=Shadows+Into+Light&family=Sriracha&display=swap');
+
+*{
+    box-sizing: border-box;
+    
+}
+
+body {
+    margin: 0;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.gallery-header {
+    text-align: center;
+    /* position: relative; */
+    margin-top: 140px;
+    height: 300px;
+    width: 100%;
+    padding: 32px;
+    top: 100px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-content: center;
+    
+}
+.gallery-header h1{
+    /* font-family: 'Kalam', cursive; */
+    /* font-family: 'Shadows Into Light', cursive; */
+    font-family: 'Sriracha', cursive;
+    font-weight: lighter;
+}
+.row {
+    display: flex;
+    flex-wrap: wrap;
+    padding: 0 4px;
+    /* position: relative; */
+    top: 100px;
+    margin-bottom: 5px;
+
+    width: 100%;
+
+    /* flex-direction: column; */
+}
+
+.column {
+    flex: 25%;
+
+    /* background-color: black; */
+    /* width: 50%; */
+    /* height: auto !important; */
+    /* height: auto; */
+    padding: 0 4px;
+
+}
+.column img {
+    margin-top: 8px;
+    vertical-align: middle;
+    width: 100%;
+    /* height: 100%; */
+    
+}
+
+/* button */
+
+.btn-group {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+.gallery-btn{
+    border:none;
+    outline: none;
+    padding: 10px 16px;
+    margin: 15px 15px;
+    background-color: #f1f1f1;
+    cursor: pointer;
+    font-size: 2rem;
+    text-align: center;
+
+}
+
+.gallery-btn:hover {
+    background-color: #ddd;
+}
+
+.gallery-btn-active {
+    background-color: #666;
+    color: white;
+
+}

@@ -73,10 +73,10 @@ resultButton.addEventListener('click', function (e) {
     div.style.width = "100%";
     div.style.height = "100%";
     div.style.border = "none";
-    div.style.margin = "5px";
+    div.style.margin = "10px";
     div.style.textAlign = "center";
     div.style.color = "navy";
-    div.style.fontSize = "1rem";
+    div.style.fontSize = "1.2rem";
 
     if (best.includes(mbti.value) == true) {
         bestContent.firstElementChild.innerHTML =""
@@ -86,7 +86,7 @@ resultButton.addEventListener('click', function (e) {
         div.innerText = `${userName.value}님, 안녕하세요?
         ${mbti.value}유형이신 ${userName.value}님!
         ${userName.value}님 맘이 제 맘!😝💫 You are my Destiny -🎇
-        곧 만나요🌈 `;
+        싫어도 어쩔 수 없어요! 곧 만나요🌈 `;
 
 
         bestContent.firstElementChild.appendChild(div)
@@ -129,10 +129,6 @@ resultButton.addEventListener('click', function (e) {
         normalContent.firstElementChild.appendChild(div)
     }
 
- 
-    // userName.value = ""
-    // mbti.value = ""
-
 });
 
 
@@ -163,8 +159,3 @@ normalResultModalCloseButton.addEventListener('click', function () {
 
 })
 
-// 결과값 수정
-
-// 공통내용 : (입력한 유저 이름)님, 안녕하세요? 저의 홈페이지에 방문해주셔서 감사합니다.
-//            (입력한 mbti유형)이신 (입력한 유저 이름)님! 
-//            (입력한 유저 이름)님 맘이 제 맘!😝 천생연분?

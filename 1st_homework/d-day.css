@@ -1,0 +1,44 @@
+@font-face {
+    font-family: 'InfinitySans-RegularA1';
+    src: url('https://cdn.jsdelivr.net/gh/projectnoonnu/noonfonts_20-04@2.1/InfinitySans-RegularA1.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
+            
+.d-day-header {
+    
+
+    text-align: center;
+    /* position: relative; */
+    margin-top: 140px;
+    height: 700px;
+    width: 100%;
+    padding: 32px;
+    top: 100px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    align-content: center;
+
+    /* font-family: 'InfinitySans-RegularA1'; */
+    font-family: 'Cafe24Oneprettynight';
+    
+
+
+}
+
+.d-day-header h1{
+    /* font-family: 'Kalam', cursive; */
+    /* font-family: 'Shadows Into Light', cursive; */
+    font-family: 'Sriracha', cursive;
+    /* font-weight: lighter; */
+    /* font-size: 3rem; */
+}
+
+.d-day-header h3{
+    font-size: 1.5rem;
+    
+}
+#start, #end, #restart {
+    font-size: 1.5rem;
+}
