@@ -316,7 +316,7 @@ li {
 .like {
     height:900px;
     width: 100%;
-    border: 1px black solid;
+    /* border: 1px black solid; */
 }
 
 .like>p {
@@ -464,7 +464,7 @@ li {
     height: 700px;
     width: 100%;
     /* font-family: 'InfinitySans-RegularA1'; */
-    border: 1px dotted red;
+    /* border: 1px dotted red; */
     background-image: url(./images/healthy.png);
     background-repeat: no-repeat;
 }
