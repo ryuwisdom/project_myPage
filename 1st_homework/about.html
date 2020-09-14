@@ -15,7 +15,9 @@
         <div class="nav-bar">
             <div class="logo-background"></div>
             <div class="logo">
-                <a href="about.html"><h1>ryuWisdom</h1></a>
+                <a href="index.html">
+                    <h1>ryuWisdom</h1>
+                </a>
             </div>
 
             <div class="menu">
@@ -42,17 +44,17 @@
                 <div class="profile-info">
                     <div class="intro-text">
                         <p>안녕하세요🧡<br>코딩공부로 하루하루가 고단하면서도 행복한 예비 프론트앤드 개발자 류지혜입니다🥰.<br></p>
-                        
+
                     </div>
                 </div>
                 <div class="sub-info">
-                    <a href="">
+                    <a href="#like">
                         <p>Likes & Dislikes </p>
                     </a>
-                    <a href="">
+                    <a href="#interest">
                         <p>Interests</p>
                     </a>
-                    <a href="">
+                    <a href="#chracter">
                         <p>You and I</p>
                     </a>
                 </div>
@@ -126,109 +128,130 @@
 
 
                     </div>
-                    <div class="interest" id="interest">
-                        <p>Interests👀<p>
-                            <div class="interest-content">
-                                <p>저는 환경(Environment)과 잘 사는 것(Well-Being)에 관심이 많습니다.</p>
-                                <p>언젠가 환경(Environment)과 잘 사는 것(Well-Being), 두가지 컨셉과 관련된 사업모델로</p>
-                                <p>미약하더라도 사회에 건강한 영향을 주는 비즈니스를 시작하고 싶습니다.</p>
-
-
-
+                    <div class="interest-container" id="interest">
+                        <div class="interest-left-image"></div>
+                        <div class="interest-right-content">
+                            <div class="interest-right-content-title">
+                                <p>Interests👀<p>
                             </div>
+                            <div class="interest-right-content-main">
+                                <div class="interest-letter-wrapper">
+                                    <p>저는 환경(Environment)과 잘 사는 것(Well-Being)에 관심이 많습니다.</p>
+                                    <p>언젠가 환경(Environment)과 잘 사는 것(Well-Being), 두가지 컨셉과 관련된 사업모델로</p>
+                                    <p>모두에게 건강한 영향을 주는 비즈니스를 시작하고 싶습니다.</p>
+                                </div>
+                            </div>
+
+                        </div>
+
+
                     </div>
-                    <div class="chracter" id="chracter">
-                        <p>You And I with MBTI👯‍♀</p>
-                        <div class="chracter-info">
-                            <div class="mytype">
+                    <div class="chracter-container" id="chracter">
 
-                                <p>저의 mbti 성격유형은 '토론자'로 알려진 ENTP입니다🙋‍♀️.</p>
-                                <p>세상 모든 것에 호기심이 많고 대표키워드 '토론자'처럼 사람들과 의견을 공유하는 것을 좋아합니다.</p>
-                                <p>안정보다는 새롭고 신선한 경험을 추구하며 걱정을 잘 하지 않습니다.</p>
+                        <div class="chracter-left-content">
+                            <div class="chracter-left-content-title">
+                                <p>You And I with MBTI👯‍♀</p>
                             </div>
-                            <div class="matching-test">
-                                <p><b>재미</b>로 해보는<br>
-                                지혜와 나의 MBTI 성격 매칭 테스트 🎶</p>
-                                <div class="btn">Click Me!</div>
+                            <div class="chracter-left-content-main">
+                                <div class="letter-wrapper">
+                                    <p>저의 mbti 성격유형은 '토론자'로 알려진 ENTP입니다🙋‍♀️.</p>
+                                    <p>세상 모든 것에 호기심이 많고 대표키워드 '토론자'처럼 사람들과 의견을 공유하는 것을 좋아합니다.</p>
+                                    <p>안정보다는 새롭고 신선한 경험을 추구하며 걱정을 잘 하지 않습니다.</p>
+                                </div>
 
                             </div>
-                        
-                        </div>
-                        <!-- modal -->
-                        <div class="modal-bg">
-
-                            <!-- modal contnet -->
-                            <div class="modal-content">
-                                <h2>당신의 이름와 mbti성격유형을 선택해주세요🤗</h2>
-                                <label for="name">이름 : </label>
-                                <input type="text" name="name" id="guest">
-                                <label for="mbti">나의 mbti유형</label>
-                                <select id="mbti">
-                                    <option value=""></option>
-                                    <option value="ENTP">ISTJ</option>
-                                    <option value="ISFJ">ISFJ</option>
-                                    <option value="INFJ">INFJ</option>
-                                    <option value="INTJ">INTJ</option>
-                                    <option value="ISTP">ISTP</option>
-                                    <option value="ISFP">ISFP</option>
-                                    <option value="INFP">INFP</option>
-                                    <option value="INTP">INTP</option>
-                                    <option value="ESTP">ESTP</option>
-                                    <option value="ESFP">ESFP</option>
-                                    <option value="ENFP">ENFP</option>
-                                    <option value="ENTP">ENTP</option>
-                                    <option value="ESTJ">ESTJ</option>
-                                    <option value="ESFJ">ESFJ</option>
-                                    <option value="ENFJ">ENFJ</option>
-                                    <option value="ENTJ">ENTJ</option>
-                                </select>
-                                <div class="modal-check">확인</div>
-                                <span class="modal-close"><i class="fas fa-times"></i></span>
+                            <div class="chracter-left-bottom">
+                                <div>
+                                    <p><b>재미</b>로 해보는<br>지혜와 나의 MBTI 성격 매칭 테스트 🎶</p>
+                                </div>
+                                <div>
+                                    <div class="btn">Click Me!</div>
+                                </div>
                             </div>
+
 
                         </div>
 
-                        <!-- 결과값 modal -->
-                        <!-- best -->
-                        <div class="modal-best">
-                            <div class="modal-best-content">
-                                <div></div>
-                                <!-- <p>💛🧡💛🧡</p> -->
-                                <span class="modal-close"><i class="fas fa-times"></i></span>
-                            </div>
+                        <div class="chracter-right-image">
+
                         </div>
-                        <!-- good -->
-                        <div class="modal-good">
-                            <div class="modal-good-content">
-                                <div></div>
-                                <!-- <p>💛🧡💛</p> -->
-                                <span class="modal-close"><i class="fas fa-times"></i></span>
-                            </div>
-                        </div>
-                        <!-- notBad -->
-                        <div class="modal-notBad">
-                            <div class="modal-notBad-content">
-                                <div></div>
-                                <!-- <p>💛🧡</p> -->
-                                <span class="modal-close"><i class="fas fa-times"></i></span>
-                            </div>
-                        </div>
-                        <!-- nomal -->
-                        <div class="modal-normal">
-                            <div class="modal-normal-content">
-                                <div></div>
-                                <!-- <p>💛</p> -->
-                                <span class="modal-close"><i class="fas fa-times"></i></span>
-                            </div>
+                
+                    </div>
+                    <!-- modal -->
+                    <div class="modal-bg">
+
+                        <!-- modal contnet -->
+                        <div class="modal-content">
+                            <h2>당신의 이름와 mbti성격유형을 선택해주세요🤗</h2>
+                            <label for="name">이름 : </label>
+                            <input type="text" name="name" id="guest">
+                            <label for="mbti">나의 mbti유형</label>
+                            <select id="mbti">
+                                <option value=""></option>
+                                <option value="ENTP">ISTJ</option>
+                                <option value="ISFJ">ISFJ</option>
+                                <option value="INFJ">INFJ</option>
+                                <option value="INTJ">INTJ</option>
+                                <option value="ISTP">ISTP</option>
+                                <option value="ISFP">ISFP</option>
+                                <option value="INFP">INFP</option>
+                                <option value="INTP">INTP</option>
+                                <option value="ESTP">ESTP</option>
+                                <option value="ESFP">ESFP</option>
+                                <option value="ENFP">ENFP</option>
+                                <option value="ENTP">ENTP</option>
+                                <option value="ESTJ">ESTJ</option>
+                                <option value="ESFJ">ESFJ</option>
+                                <option value="ENFJ">ENFJ</option>
+                                <option value="ENTJ">ENTJ</option>
+                            </select>
+                            <div class="modal-check">확인</div>
+                            <span class="modal-close"><i class="fas fa-times"></i></span>
                         </div>
 
                     </div>
+
+                    <!-- 결과값 modal -->
+                    <!-- best -->
+                    <div class="modal-best">
+                        <div class="modal-best-content">
+                            <div></div>
+                            <!-- <p>💛🧡💛🧡</p> -->
+                            <span class="modal-close"><i class="fas fa-times"></i></span>
+                        </div>
+                    </div>
+                    <!-- good -->
+                    <div class="modal-good">
+                        <div class="modal-good-content">
+                            <div></div>
+                            <!-- <p>💛🧡💛</p> -->
+                            <span class="modal-close"><i class="fas fa-times"></i></span>
+                        </div>
+                    </div>
+                    <!-- notBad -->
+                    <div class="modal-notBad">
+                        <div class="modal-notBad-content">
+                            <div></div>
+                            <!-- <p>💛🧡</p> -->
+                            <span class="modal-close"><i class="fas fa-times"></i></span>
+                        </div>
+                    </div>
+                    <!-- nomal -->
+                    <div class="modal-normal">
+                        <div class="modal-normal-content">
+                            <div></div>
+                            <!-- <p>💛</p> -->
+                            <span class="modal-close"><i class="fas fa-times"></i></span>
+                        </div>
+                    </div>
+
                 </div>
             </div>
-
-
-
         </div>
+
+
+
+    </div>
 
     </div>
     <div class="footer">
