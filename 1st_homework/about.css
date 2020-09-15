@@ -219,6 +219,25 @@ li {
     /* border: 1px solid black; */
 }
 
+.scroll-up-btn {
+    height: 70px;
+    width: 70px;
+    background-color: ghostwhite;
+    border-radius: 50%;
+    position: fixed;
+    bottom: 15px;
+    right: 15px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    cursor: pointer;
+    box-shadow: 0 4px 16px 0 rgba(0, 0, 0, .07);
+}
+
+.scroll-up-btn .fas{
+    color:  #805acb;
+    font-size: 2rem;
+}
 .profile {
     height: 100%;
     width: 100%;
@@ -679,8 +698,30 @@ li {
 
 .chracter-left-bottom .btn {
     background-color: rgba(12, 198, 221, 1);
+    animation-name: click;
+    animation-duration: 0.8s;
+    animation-timing-function:ease-in-out;
+    animation-iteration-count: infinite;
+
 }
 
+@keyframes click {
+    0% {
+        opacity: 1.0;
+    }
+    25% {
+        opacity: 0.6;
+    }
+    50% {
+        opacity: 0.3;
+    }
+    75% {
+        opacity: 0.6;
+    }
+    100% {
+        opacity: 1.0;
+    }
+}
 .btn {
     background-color: #544a7d;
     height: 120px;

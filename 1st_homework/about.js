@@ -160,4 +160,10 @@ normalResultModalCloseButton.addEventListener('click', function () {
 })
 
 
+// scroll up 버튼
 
+const scrollUpBtn = document.getElementById("up-btn");
+
+scrollUpBtn.addEventListener("click", ()=>{
+    window.scrollTo(0,0);
+})
