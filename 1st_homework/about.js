@@ -1,3 +1,4 @@
+
 const checkButton = document.querySelector('.btn');
 const modalBg = document.querySelector('.modal-bg');
 const modalClose = document.querySelectorAll('.modal-close');
